@@ -174,7 +174,7 @@ document.addEventListener('DOMContentLoaded', function() {
             return;
         }
 
-        if (uploadedFiles.length > 5) {
+        if (uploadedFiles.length > 1) {
             downloadAsZip();
         } else {
             uploadedFiles.forEach(file => {

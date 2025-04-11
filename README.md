@@ -26,8 +26,8 @@ RTiler2D é uma ferramenta web projetada para ajudar usuários do RPG Maker MZ a
    - Use o botão "Redimensionar" em tilesets individuais
 
 4. **Download**:
-   - Para 1-5 arquivos: Baixe individualmente ou use "Baixar Todos"
-   - Para mais de 5 arquivos: Cria automaticamente um arquivo ZIP
+   - Para 1 arquivos: Baixe individualmente ou use "Baixar Todos"
+   - Para mais de 1 arquivos: Cria automaticamente um arquivo ZIP
 
 ## Detalhes Técnicos
 
@@ -54,9 +54,10 @@ RTiler2D funciona em todos os navegadores modernos que suportam:
 - API Canvas
 - Recursos ES6 do JavaScript
 
-## Contribuindo
+## Acessar o Site
+ 
+[RTiler2D](https://wzp.icu/p/rtiler2d/)
 
-Sinta-se à vontade para enviar problemas e solicitações de melhorias!
 
 ## Licença
 
