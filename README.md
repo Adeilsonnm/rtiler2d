@@ -58,6 +58,7 @@ RTiler2D funciona em todos os navegadores modernos que suportam:
  
 [RTiler2D](https://wzp.icu/p/rtiler2d/)
 
+![RTiler2D Interface](/imgs/print1.jpeg)
 
 ## Licença
 
