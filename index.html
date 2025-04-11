@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RTiler2D</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>RTiler2D - Redimensionador de Tileset</h1>
+        
+        <div class="input-section">
+            <div class="upload-area" id="upload-area">
+                <i class="fas fa-cloud-upload-alt"></i>
+                <p>Arraste os arquivos aqui ou clique para selecionar</p>
+                <input type="file" id="tileset-input" accept="image/png" multiple>
+            </div>
+
+            <div class="files-list">
+                <h2>Arquivos Selecionados</h2>
+                <div id="files-container"></div>
+            </div>
+
+            <div class="dimensions-info">
+                <div class="info-group">
+                    <h3>Dimensões Originais</h3>
+                    <div class="dimensions-input">
+                        <div>
+                            <label for="tile-width">Largura do Tile (px):</label>
+                            <input type="number" id="tile-width" min="1" value="32">
+                        </div>
+                        <div>
+                            <label for="tile-height">Altura do Tile (px):</label>
+                            <input type="number" id="tile-height" min="1" value="32">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="info-group">
+                    <h3>Nova Resolução</h3>
+                    <div class="new-dimensions-input">
+                        <div>
+                            <label for="new-tile-width">Nova Largura (px):</label>
+                            <input type="number" id="new-tile-width" min="1" value="32">
+                        </div>
+                        <div>
+                            <label for="new-tile-height">Nova Altura (px):</label>
+                            <input type="number" id="new-tile-height" min="1" value="32">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="convert-btn">Converter</button>
+            <button id="download-all-btn" disabled>Baixar Todos</button>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; <span id="current-year"></span> @phidev</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jszip/3.10.1/jszip.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html> 
